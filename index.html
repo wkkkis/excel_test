@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="title">
+            <h1>Импорт склада с Excel</h1>
+        </div>
+        <div class="form">
+            <div class="intruction">
+                <div class="intruction_text">
+                    <h2>Инструкция по импорту</h2>
+                    <p>Файл должен быть без заголовок во всех загрузках</p>
+                </div>
+                <i></i>
+                <div class="intruction_icon">
+                    <img src="./assets/download.svg" alt="">
+                    <a href="./assets/example.xlsx" download>cкачать пример</a>
+                </div>
+            </div>
+            <form id="form" action="">
+                <img id="form-image" src="./assets/ready.svg" />
+                <div class="load">
+                    <span class="load_process"></span>
+                    <div class="load_bar">
+                        <div class="load_range"></div>
+                    </div>
+                </div>
+                <span class="text">Для начала загрузки отпустите файл</span>
+                <input type="file">
+            </form>
+            <ul class="files"></ul>
+            <div class="btns">
+                <button id="import-btn">Импорт</button>
+                <button id="close-btn">Закрыть</button>
+            </div>
+        </div>    
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

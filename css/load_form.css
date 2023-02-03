@@ -1,0 +1,40 @@
+.load {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    pointer-events: none;
+}
+
+.load_form img {
+    display: none;
+}
+
+.load_form a {
+    text-decoration: none;
+}
+
+.load_form .load {
+    display: flex;
+}
+
+.load_form .load_bar {
+    width: 266px;
+    height: 7px;
+    background: rgba(146, 168, 228, 0.25);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.load_form .load_range {
+    width: 0%;
+    height: 7px;
+    background: #577BEC;
+    border-radius: 10px;
+}
+
+.load_form .load_process {
+    font-size: 16px;
+    line-height: 19px;
+    color: #577BEC;
+    margin-bottom: 15px;
+}

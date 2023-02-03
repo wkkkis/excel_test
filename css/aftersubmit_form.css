@@ -1,0 +1,8 @@
+.aftersubmit_form {
+    background: white;
+    border: 1px dashed #E8E8E8;
+}
+
+.aftersubmit_form .text {
+    color: #001737;
+}

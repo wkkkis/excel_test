@@ -1,0 +1,148 @@
+main {
+    width: 572px;
+
+    border-radius: 10px;
+    background: white;
+}
+
+main .title {
+    width: 100%;
+
+    padding: 11px 0 18px 0;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background: #F5F6FA;
+
+    text-align: center;
+}
+
+main .title h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+main .form {
+    width: 100%;
+
+    padding: 25px 80px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#form {
+    transition: all 0.5s ease-in-out;
+}
+
+.intruction {
+    display: flex;
+    gap: 6px;
+}
+
+.intruction_text {
+    width: 100%;
+    border-right: 1px solid #E9EEFC;
+}
+
+.intruction_icon {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.intruction_text h2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.intruction_text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7F8A95;
+}
+
+.intruction_icon a {
+    text-decoration: none;
+}
+
+main form, .error_form, .ready_form {
+    position: relative;
+
+    width: 100%;
+    height: 144px;
+
+    background: #EFF3FE;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+main form input[type="file"] {
+    position: absolute;
+    inset: 0;
+	cursor: pointer;
+	opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+
+main form span {
+    color: #577BEC;
+    font-size: 16px;
+}
+
+.btns {
+    display: flex;
+    gap: 8px;
+}
+
+.btns button {
+    width: 100%;
+
+    padding: 10px 0;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    color: #124879;
+
+    background: #C7DEF4;
+    border-radius: 4px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.btns button:nth-child(2) {
+    background: #E9EBF0;
+    color: #A1A1A6;
+}
+
+.files {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.files .file {
+    list-style: none;
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.files .file p {
+    opacity: 0.3;
+}

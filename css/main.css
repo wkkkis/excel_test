@@ -1,0 +1,28 @@
+@import "./font.css";
+@import "./form.css";
+@import "./error_form.css";
+@import "./load_form.css";
+@import "./ready_form.css";
+@import "./success_form.css";
+@import "./aftersubmit_form.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'SF Pro Display';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    background: #E5E5E5;
+}
+
+body a {
+    color: #577BEC;
+}
